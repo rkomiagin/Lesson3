@@ -1,0 +1,16 @@
+month = input()
+match month:
+    case 'Январь': print(31)
+    case 'Февраль': print(28, 29)
+    case 'Март': print(31)
+    case 'Апрель': print(30)
+    case 'Май': print(31)
+    case 'Июнь': print(30)
+    case 'Июль': print(31)
+    case 'Август': print(31)
+    case 'Сентябрь': print(30)
+    case 'Октябрь': print(31)
+    case 'Ноябрь': print(30)
+    case 'Декабрь': print(31)
+    case _:
+        print('Error')
