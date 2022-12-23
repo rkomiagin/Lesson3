@@ -1,0 +1,10 @@
+money = input()
+match money:
+    case '1': print('Джордж Вашингтон')
+    case '2': print('Томас Джефферсон')
+    case '5': print('Авраам Линкольн')
+    case '10': print('Александр Гамильтон')
+    case '20': print('Эндрю Джексон')
+    case '50': print('Улисс Грант')
+    case '100': print('Бенджамин Франклин')
+    case _: print('Error')
