@@ -1,0 +1,7 @@
+a = float(input())
+if (a % 2 == 0):
+    print('Чётное')
+elif (a % 2 == 1):
+    print('Нечётное')
+else:
+    print('Ошибка')
