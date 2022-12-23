@@ -1,0 +1,6 @@
+a = float(input())
+if (a == 21.0):
+    print(2)
+elif (a == 10.5):
+    print(1)
+# Не доделано
